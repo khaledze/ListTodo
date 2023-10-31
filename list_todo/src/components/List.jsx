@@ -35,7 +35,7 @@ export default function List() {
         <div className="groupe">
           <input
             className="input"
-            placeholder="Username"
+            placeholder="Entrez vos tcâhes ici"
             type="text"
             value={input}
             onChange={(e) => setInput(e.target.value)}
