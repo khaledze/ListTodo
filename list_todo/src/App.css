@@ -1,0 +1,159 @@
+.App{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  gap: 16px;
+  background: #022b64dc;
+  background-image: url('components/Photo/image.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+}
+.groupe {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
+.groupe .button {
+  padding: 10px 20px;
+  background-color: #000812;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 12px 8px 16px;
+  gap: 8px;
+  height: 40px;
+  width: 128px;
+  border: none;
+  background: #0e1216a0;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.lable {
+  margin-top: 1px;
+  font-size: 19px;
+  line-height: 22px;
+  color: #a9bbd4;
+  font-family: sans-serif;
+  letter-spacing: 1px;
+}
+
+.button:hover {
+  background: #056bfa49;
+}
+
+.button:hover .svg-icon {
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  25% {
+    transform: rotate(-8deg);
+  }
+
+  50% {
+    transform: rotate(0deg);
+  }
+
+  75% {
+    transform: rotate(8deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}
+.input-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.grandgroupe {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  background: linear-gradient(to bottom, #393737, #808080); /* Dégradé du noir (#000000) au gris (#808080) */
+}
+
+.grandgroupe .groupe {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.grandgroupe .todo-item {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.grandgroupe .todo-item button {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+.input {
+  margin: 30px;
+  background: none;
+  border: none;
+  outline: none;
+  max-width: 190px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 9999px;
+  box-shadow: inset 2px 5px 10px rgb(5, 5, 5);
+  color: #fff;
+}
+
+
+.titre{
+  
+  text-align: center;
+
+}
+
+
+
+.button2 {
+  position: relative;
+  padding: 10px 22px;
+  border-radius: 6px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  background-color: #0e1216a0;
+  transition: all 0.2s ease;
+  margin-left: 10px;
+}
+
+
+
